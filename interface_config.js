@@ -45,13 +45,14 @@ var interfaceConfig = {
      * which also require being a moderator and some values in config.js to be
      * enabled. Also, the "profile" button will not display for user's with a
      * jwt.
+	 'videobackgroundblur', 
      */
     TOOLBAR_BUTTONS: [
         'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen',
         'fodeviceselection', 'hangup', 'profile', 'info', 'chat', 'recording',
         'livestreaming', 'etherpad', 'sharedvideo', 'settings', 'raisehand',
         'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
-        'tileview', 'videobackgroundblur', 'download', 'help', 'mute-everyone',
+        'tileview', 'download', 'help', 'mute-everyone',
         'e2ee'
     ],
 
