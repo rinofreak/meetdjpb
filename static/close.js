@@ -64,4 +64,4 @@ function onLoad() {
     insertTextMsg('hintMessage', getHint());
 }
 
-window.onload = onLoad;
+//window.onload = onLoad;
