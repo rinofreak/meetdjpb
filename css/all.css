@@ -3929,9 +3929,9 @@ button.no-icon {
 }
 
 .display-avatar-with-name .avatar-container,
-.display-avatar-with-name .displayNameContainer { visibility: hidden },
+.display-avatar-with-name .displayNameContainer { visibility: visible },
 .display-avatar-with-name .videocontainer__hoverOverlay {
-	
+
 }
 
 .display-avatar-with-name video,
@@ -3953,7 +3953,7 @@ button.no-icon {
 }
 
 .display-video .avatar-container,
-.display-video .displayNameContainer { visibility: hidden },
+.display-video .displayNameContainer { visibility: visible },
 .display-video .videocontainer__hoverOverlay {
 	visibility: hidden
 }
@@ -3973,7 +3973,7 @@ button.no-icon {
 	visibility: visible
 }
 
-.display-avatar-only .displayNameContainer { visibility: hidden },
+.display-avatar-only .displayNameContainer { visibility: visible },
 .display-avatar-only .videocontainer__hoverOverlay,
 .display-avatar-only video {
 	visibility: hidden
