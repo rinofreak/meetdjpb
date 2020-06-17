@@ -3584,15 +3584,23 @@ button.no-icon {
 #alwaysOnTop .displayname,
 .videocontainer .displayname,
 .videocontainer .editdisplayname {
-    background-color: #273746;
-    display: inline-block;
-    position: absolute;
-    left: 5%;
-    bottom: 7%;
-    color: #d5d8dc;
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
+	display: inline-block;
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	top: 50%;
+	-moz-transform: translateY(-40%);
+	-ms-transform: translateY(-40%);
+	-webkit-transform: translateY(-40%);
+	-o-transform: translateY(-40%);
+	transform: translateY(-40%);
+	color: #fff;
+	text-align: center;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	font-weight: 100;
+	overflow: hidden;
+	white-space: nowrap;
 	line-height: 22px;
 	z-index: 2
 }
@@ -3930,7 +3938,7 @@ button.no-icon {
 }
 
 .display-avatar-with-name .avatar-container,
-.display-avatar-with-name .displayNameContainer { visibility: hidden },
+.display-avatar-with-name .displayNameContainer,
 .display-avatar-with-name .videocontainer__hoverOverlay {
 	visibility: visible
 }
@@ -3954,7 +3962,7 @@ button.no-icon {
 }
 
 .display-video .avatar-container,
-.display-video .displayNameContainer { visibility: hidden },
+.display-video .displayNameContainer,
 .display-video .videocontainer__hoverOverlay {
 	visibility: hidden
 }
@@ -3974,7 +3982,7 @@ button.no-icon {
 	visibility: visible
 }
 
-.display-avatar-only .displayNameContainer { visibility: hidden },
+.display-avatar-only .displayNameContainer,
 .display-avatar-only .videocontainer__hoverOverlay,
 .display-avatar-only video {
 	visibility: hidden
