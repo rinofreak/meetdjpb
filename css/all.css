@@ -3508,7 +3508,6 @@ button.no-icon {
 }
 
 .videocontainer__hoverOverlay {
-	background: rgba(0, 0, 0, .6);
 	border-radius: 4px;
 	position: absolute;
 	top: 0;
@@ -3932,7 +3931,7 @@ button.no-icon {
 .display-avatar-with-name .avatar-container,
 .display-avatar-with-name .displayNameContainer { visibility: hidden },
 .display-avatar-with-name .videocontainer__hoverOverlay {
-	visibility: visible
+	
 }
 
 .display-avatar-with-name video,
